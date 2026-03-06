@@ -15,8 +15,7 @@ def qsofa_score(rr: int, sbp: int, ams: bool) ->  int:
 # vascular (bool).
 # The function should return an int representing the CHA2DS2-VASc score.
 
-# purpose:
-# ins:
-# outs:
-def cha2ds2_vasc_score():
+# purpose: cha2ds2_vasc score accepts various clinical parameters and calculates the CHA2DS2-VASc score.
+# ins & outs: age (int), female (bool), chf (bool), htn (bool), dm (bool), stroke (bool), vascular (bool) -> score (int)
+def cha2ds2_vasc_score(age: int, female: bool, chf: bool, htn: bool, dm: bool, stroke: bool, vascular: bool) -> int:
     pass

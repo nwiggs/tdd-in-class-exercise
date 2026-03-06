@@ -24,3 +24,4 @@ class TestQSOFA(unittest.TestCase):
         # Hint: You can use self.assertRaises to check for exceptions.
         with self.assertRaises(ValueError):
             qsofa_score(rr=-1, sbp=120, ams=False)
+
